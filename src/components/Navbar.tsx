@@ -17,6 +17,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'All Cars', path: '/all-cars' },
+    { name: 'Brands', path: '/brands' },
     { name: 'Ferrari', path: '/brand/ferrari' },
     { name: 'Lamborghini', path: '/brand/lamborghini' },
     { name: 'McLaren', path: '/brand/mclaren' },

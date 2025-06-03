@@ -9,6 +9,7 @@ import { CartProvider } from "@/context/CartContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Index from "./pages/Index";
+import Brands from "./pages/Brands";
 import BrandPage from "./pages/BrandPage";
 import CarDetails from "./pages/CarDetails";
 import Cart from "./pages/Cart";
@@ -35,6 +36,7 @@ const App = () => (
               <main className="flex-1">
                 <Routes>
                   <Route path="/" element={<Index />} />
+                  <Route path="/brands" element={<Brands />} />
                   <Route path="/brand/:brandId" element={<BrandPage />} />
                   <Route path="/car/:carId" element={<CarDetails />} />
                   <Route path="/cart" element={<Cart />} />
