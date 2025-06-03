@@ -2,6 +2,8 @@
 import React from 'react';
 import Hero from '@/components/Hero';
 import CarCard from '@/components/CarCard';
+import Testimonials from '@/components/Testimonials';
+import TrustIndicators from '@/components/TrustIndicators';
 import { brands } from '@/data/cars';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -42,6 +44,9 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Trust Indicators */}
+      <TrustIndicators />
+
       {/* Brands Section */}
       <section className="py-16 px-4 bg-muted/30">
         <div className="max-w-7xl mx-auto">
@@ -73,6 +78,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <Testimonials />
 
       {/* Why Choose Us */}
       <section className="py-16 px-4">

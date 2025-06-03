@@ -16,13 +16,13 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
+    { name: 'All Cars', path: '/all-cars' },
     { name: 'Ferrari', path: '/brand/ferrari' },
     { name: 'Lamborghini', path: '/brand/lamborghini' },
     { name: 'McLaren', path: '/brand/mclaren' },
-    { name: 'Bugatti', path: '/brand/bugatti' },
-    { name: 'Porsche', path: '/brand/porsche' },
-    { name: 'Aston Martin', path: '/brand/aston-martin' },
-    { name: 'Koenigsegg', path: '/brand/koenigsegg' },
+    { name: 'About', path: '/about' },
+    { name: 'Contact', path: '/contact' },
+    { name: 'FAQ', path: '/faq' },
   ];
 
   return (
